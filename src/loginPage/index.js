@@ -7,8 +7,8 @@ class Login extends Component{
   constructor(props) {
     super(props);
     this.state = {
-      username: '',
-      password: ''
+      username: 'Username',
+      password: 'Password'
     };
   }
 
@@ -40,6 +40,7 @@ class Login extends Component{
                   style={styles.textField}
                   onChangeText={(username) => this.setState({username})}
                   placeholder="Username"
+                  placeholderTextColor='black'
                 />
 
                 <TextInput
@@ -47,6 +48,7 @@ class Login extends Component{
                   onChangeText={(password) => this.setState({password})}
                   placeholder="Password"
                   secureTextEntry={true}
+                  placeholderTextColor='black'
                 />
 
                 <TouchableOpacity style={styles.button} onPress={()=>this.validateLogin()}>

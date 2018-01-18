@@ -1,11 +1,12 @@
 import React, {Component} from 'react'
 import {View, Text, TouchableHighlight, ScrollView, Alert, TouchableOpacity} from 'react-native'
 import Swipeout from 'react-native-swipeout';
+import { Icon } from 'react-native-elements'
+import { Row,Col, Grid } from 'react-native-easy-grid';
 import items from '../items'
 import styles from './styles'
 import ItemImage from './Image'
-import { Icon } from 'react-native-elements'
-import { Row,Col, Grid } from 'react-native-easy-grid';
+
 
 class List extends Component{
   constructor(props){

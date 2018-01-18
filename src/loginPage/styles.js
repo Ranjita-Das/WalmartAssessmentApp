@@ -11,17 +11,18 @@ const styles={
   },
   textField: {
     width: inputSize,
-    height: 40,
-    borderBottomWidth: 1,
-    margin: 20,
+    height: deviceHeight*0.05,
+    borderBottomWidth: deviceHeight*0.0015,
+    borderBottomColor: '#B0B0B0',
+    margin: deviceHeight*0.02,
     fontSize:deviceHeight*0.028,
-    color:'black'
+    color:'black',
   },
   button:{
     backgroundColor: '#2D7BC7',
     width: inputSize,
-    marginTop: deviceHeight*0.05,
-    height: 50,
+    marginTop: deviceHeight*0.09,
+    height: deviceHeight*0.07,
     alignItems:'center',
     justifyContent:'center'
 
